@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "podcastapi"
+description = "Sample project for Visual Studio Code for Python Developers course"
+version = "1.0"
+authors = [{ name = "Brian Clark" }, { name = "Cecil Phillip" }]
+requires-python = ">=3.11"
+
+[project.urls]
+course = "http://fillin"
+repo = "http://fillin"
+
+[project.scripts]
+podcastapi = "podcastapi.__main__:main"

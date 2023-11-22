@@ -1,0 +1,8 @@
+GET http://127.0.0.1:8000/categories
+
+###
+GET http://127.0.0.1:8000/categories/art/shows
+
+
+###
+GET https://google.com

@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.pylint",
+        "ms-python.isort",
+        "ms-python.black-formatter",
+        "ms-python.vscode-pylance",
+        "humao.rest-client",
+        "tamasfe.even-better-toml",
+    ]
+}

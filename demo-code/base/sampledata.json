@@ -1,0 +1,554 @@
+[
+    {
+        "name": "Tech Talks",
+        "description": "A podcast about the latest technology trends.",
+        "hosts": [
+            "John Smith",
+            "Emily Johnson"
+        ],
+        "categories": [
+            "Technology"
+        ],
+        "episodes": [
+            {
+                "title": "Introduction to AI",
+                "guests": [
+                    "Dr. Sarah Davis"
+                ],
+                "length_seconds": 3600
+            },
+            {
+                "title": "Web Development Tools",
+                "guests": [
+                    "Mike Thompson",
+                    "Anna Lee"
+                ],
+                "length_seconds": 2700
+            }
+        ]
+    },
+    {
+        "name": "The Science Hour",
+        "description": "Exploring the wonders of science.",
+        "hosts": [
+            "Dr. Robert Anderson",
+            "Dr. Maria Garcia"
+        ],
+        "categories": [
+            "Science"
+        ],
+        "episodes": [
+            {
+                "title": "The Universe and Beyond",
+                "guests": [
+                    "Dr. James Miller"
+                ],
+                "length_seconds": 4200
+            },
+            {
+                "title": "The Future of Medicine",
+                "guests": [
+                    "Dr. Emily Lewis",
+                    "Dr. Mark Johnson"
+                ],
+                "length_seconds": 3000
+            }
+        ]
+    },
+    {
+        "name": "Business Insights",
+        "description": "Insights and tips for running a successful business.",
+        "hosts": [
+            "Andrew Roberts"
+        ],
+        "categories": [
+            "Business"
+        ],
+        "episodes": [
+            {
+                "title": "Effective Marketing Strategies",
+                "guests": [
+                    "Sarah Adams"
+                ],
+                "length_seconds": 2400
+            },
+            {
+                "title": "Financial Planning for Entrepreneurs",
+                "guests": [
+                    "Michael Brown",
+                    "Jennifer Turner"
+                ],
+                "length_seconds": 3300
+            }
+        ]
+    },
+    {
+        "name": "Sports Zone",
+        "description": "All things sports, from the field to the locker room.",
+        "hosts": [
+            "Tom Johnson",
+            "Lisa Miller"
+        ],
+        "categories": [
+            "Sports"
+        ],
+        "episodes": [
+            {
+                "title": "The Evolution of Basketball",
+                "guests": [
+                    "Kobe Bryant"
+                ],
+                "length_seconds": 3900
+            },
+            {
+                "title": "World Cup Fever",
+                "guests": [
+                    "Alex Morgan",
+                    "Cristiano Ronaldo"
+                ],
+                "length_seconds": 2700
+            }
+        ]
+    },
+    {
+        "name": "Health and Wellness",
+        "description": "Promoting a healthy and balanced lifestyle.",
+        "hosts": [
+            "Dr. Michelle Roberts"
+        ],
+        "categories": [
+            "Health"
+        ],
+        "episodes": [
+            {
+                "title": "Nutrition 101",
+                "guests": [
+                    "Karen Thompson"
+                ],
+                "length_seconds": 2400
+            },
+            {
+                "title": "Mental Wellbeing and Stress Management",
+                "guests": [
+                    "Dr. David Johnson",
+                    "Emily Parker"
+                ],
+                "length_seconds": 3300
+            }
+        ]
+    },
+    {
+        "name": "Art and Culture",
+        "description": "Exploring the world of art, music, and culture.",
+        "hosts": [
+            "Julia Adams"
+        ],
+        "categories": [
+            "Art",
+            "Culture"
+        ],
+        "episodes": [
+            {
+                "title": "Famous Artists Throughout History",
+                "guests": [
+                    "Dr. Elizabeth Turner"
+                ],
+                "length_seconds": 4200
+            },
+            {
+                "title": "Music and its Influence on Society",
+                "guests": [
+                    "John Johnson",
+                    "Sarah Lewis"
+                ],
+                "length_seconds": 3000
+            }
+        ]
+    },
+    {
+        "name": "True Crime Stories",
+        "description": "Unraveling mysterious crimes and criminal investigations.",
+        "hosts": [
+            "Rachel Williams"
+        ],
+        "categories": [
+            "Crime",
+            "Mystery"
+        ],
+        "episodes": [
+            {
+                "title": "The Case of the Missing Heir",
+                "guests": [
+                    "Detective Mark Anderson"
+                ],
+                "length_seconds": 3600
+            },
+            {
+                "title": "Famous Cold Cases",
+                "guests": [
+                    "Dr. Elizabeth Turner",
+                    "Sarah Adams"
+                ],
+                "length_seconds": 2700
+            }
+        ]
+    },
+    {
+        "name": "Comedy Hour",
+        "description": "Laughter and entertainment guaranteed!",
+        "hosts": [
+            "Mike Johnson",
+            "Emily Roberts"
+        ],
+        "categories": [
+            "Comedy"
+        ],
+        "episodes": [
+            {
+                "title": "Stand-Up Comedy Special",
+                "guests": [
+                    "John Smith"
+                ],
+                "length_seconds": 4200
+            },
+            {
+                "title": "Funny Tales from Everyday Life",
+                "guests": [
+                    "Sarah Miller",
+                    "David Johnson"
+                ],
+                "length_seconds": 3000
+            }
+        ]
+    },
+    {
+        "name": "Bookworm's Corner",
+        "description": "Discovering new books and discussing literary works.",
+        "hosts": [
+            "Lisa Turner"
+        ],
+        "categories": [
+            "Books"
+        ],
+        "episodes": [
+            {
+                "title": "Classic Novels of the 20th Century",
+                "guests": [
+                    "Dr. Richard Adams"
+                ],
+                "length_seconds": 2400
+            },
+            {
+                "title": "Author Spotlight: Stephen King",
+                "guests": [
+                    "Stephen King"
+                ],
+                "length_seconds": 3300
+            }
+        ]
+    },
+    {
+        "name": "Travel Diaries",
+        "description": "Exploring the world one destination at a time.",
+        "hosts": [
+            "Sarah Turner"
+        ],
+        "categories": [
+            "Travel"
+        ],
+        "episodes": [
+            {
+                "title": "Adventures in Southeast Asia",
+                "guests": [
+                    "John Johnson",
+                    "Emily Lewis"
+                ],
+                "length_seconds": 3900
+            },
+            {
+                "title": "Hidden Gems of Europe",
+                "guests": [
+                    "Michael Roberts",
+                    "Julia Adams"
+                ],
+                "length_seconds": 2700
+            }
+        ]
+    },
+    {
+        "name": "Parenting 101",
+        "description": "Tips and advice for new and experienced parents.",
+        "hosts": [
+            "Emily Johnson"
+        ],
+        "categories": [
+            "Parenting"
+        ],
+        "episodes": [
+            {
+                "title": "Navigating the Teenage Years",
+                "guests": [
+                    "Dr. Sarah Davis"
+                ],
+                "length_seconds": 3600
+            },
+            {
+                "title": "Preparing for Parenthood",
+                "guests": [
+                    "Michael Brown",
+                    "Jennifer Turner"
+                ],
+                "length_seconds": 2700
+            }
+        ]
+    },
+    {
+        "name": "Music Vibes",
+        "description": "Exploring different genres and musical influences.",
+        "hosts": [
+            "Mike Thompson"
+        ],
+        "categories": [
+            "Music"
+        ],
+        "episodes": [
+            {
+                "title": "The History of Rock 'n' Roll",
+                "guests": [
+                    "John Miller"
+                ],
+                "length_seconds": 4200
+            },
+            {
+                "title": "Jazz and Blues: Roots and Evolution",
+                "guests": [
+                    "Emily Lewis",
+                    "Sarah Parker"
+                ],
+                "length_seconds": 3000
+            }
+        ]
+    },
+    {
+        "name": "Personal Development",
+        "description": "Guiding you on a journey of personal growth.",
+        "hosts": [
+            "Dr. David Johnson"
+        ],
+        "categories": [
+            "Self-Help",
+            "Motivation"
+        ],
+        "episodes": [
+            {
+                "title": "Goal Setting and Achieving Success",
+                "guests": [
+                    "Sarah Adams"
+                ],
+                "length_seconds": 2400
+            },
+            {
+                "title": "Building Resilience and Overcoming Challenges",
+                "guests": [
+                    "Dr. Michelle Roberts",
+                    "Michael Johnson"
+                ],
+                "length_seconds": 3300
+            }
+        ]
+    },
+    {
+        "name": "History Uncovered",
+        "description": "Delving into fascinating moments from the past.",
+        "hosts": [
+            "Dr. Elizabeth Turner"
+        ],
+        "categories": [
+            "History"
+        ],
+        "episodes": [
+            {
+                "title": "The Renaissance Era",
+                "guests": [
+                    "Dr. Richard Adams"
+                ],
+                "length_seconds": 4200
+            },
+            {
+                "title": "World War II: Untold Stories",
+                "guests": [
+                    "Dr. Robert Anderson",
+                    "Sarah Lewis"
+                ],
+                "length_seconds": 3000
+            }
+        ]
+    },
+    {
+        "name": "Sustainable Living",
+        "description": "Exploring eco-friendly lifestyle choices.",
+        "hosts": [
+            "Emily Parker"
+        ],
+        "categories": [
+            "Environment",
+            "Green Living"
+        ],
+        "episodes": [
+            {
+                "title": "Zero Waste Living",
+                "guests": [
+                    "Karen Thompson"
+                ],
+                "length_seconds": 2400
+            },
+            {
+                "title": "Renewable Energy and its Impact",
+                "guests": [
+                    "Dr. Mark Johnson",
+                    "Anna Lee"
+                ],
+                "length_seconds": 3300
+            }
+        ]
+    },
+    {
+        "name": "Movie Buffs",
+        "description": "Discussing the latest films, actors, and cinematic trends.",
+        "hosts": [
+            "Sarah Miller"
+        ],
+        "categories": [
+            "Movies"
+        ],
+        "episodes": [
+            {
+                "title": "The Best Picture Winners",
+                "guests": [
+                    "John Johnson"
+                ],
+                "length_seconds": 3900
+            },
+            {
+                "title": "Iconic Movie Quotes",
+                "guests": [
+                    "Lisa Turner",
+                    "Mike Johnson"
+                ],
+                "length_seconds": 2700
+            }
+        ]
+    },
+    {
+        "name": "The Art of Cooking",
+        "description": "Discovering culinary delights from around the world.",
+        "hosts": [
+            "Anna Lee"
+        ],
+        "categories": [
+            "Food",
+            "Cooking"
+        ],
+        "episodes": [
+            {
+                "title": "Mastering French Cuisine",
+                "guests": [
+                    "Chef Michael Brown"
+                ],
+                "length_seconds": 3600
+            },
+            {
+                "title": "Exploring Asian Flavors",
+                "guests": [
+                    "Chef Sarah Adams",
+                    "Karen Thompson"
+                ],
+                "length_seconds": 2700
+            }
+        ]
+    },
+    {
+        "name": "Political Discourse",
+        "description": "Analyzing current events and political issues.",
+        "hosts": [
+            "Dr. Mark Johnson"
+        ],
+        "categories": [
+            "Politics",
+            "News"
+        ],
+        "episodes": [
+            {
+                "title": "Elections and Democracy",
+                "guests": [
+                    "Dr. Robert Anderson"
+                ],
+                "length_seconds": 4200
+            },
+            {
+                "title": "Global Politics: Challenges and Opportunities",
+                "guests": [
+                    "Dr. Maria Garcia",
+                    "Michael Roberts"
+                ],
+                "length_seconds": 3000
+            }
+        ]
+    },
+    {
+        "name": "Language and Linguistics",
+        "description": "Exploring the fascinating world of languages.",
+        "hosts": [
+            "Dr. Sarah Davis"
+        ],
+        "categories": [
+            "Language",
+            "Culture"
+        ],
+        "episodes": [
+            {
+                "title": "The Origins of Language",
+                "guests": [
+                    "Dr. David Johnson"
+                ],
+                "length_seconds": 2400
+            },
+            {
+                "title": "Language and Identity",
+                "guests": [
+                    "Dr. Michelle Roberts",
+                    "Julia Adams"
+                ],
+                "length_seconds": 3300
+            }
+        ]
+    },
+    {
+        "name": "Motivational Talks",
+        "description": "Inspiring and empowering individuals to achieve their goals.",
+        "hosts": [
+            "Michael Brown"
+        ],
+        "categories": [
+            "Motivation",
+            "Inspiration"
+        ],
+        "episodes": [
+            {
+                "title": "Finding Your Purpose",
+                "guests": [
+                    "Emily Roberts"
+                ],
+                "length_seconds": 3900
+            },
+            {
+                "title": "Overcoming Obstacles and Embracing Change",
+                "guests": [
+                    "Sarah Lewis",
+                    "Dr. Richard Adams"
+                ],
+                "length_seconds": 2700
+            }
+        ]
+    }
+]
