@@ -3,8 +3,6 @@ GET http://127.0.0.1:8000/categories
 ###
 GET http://127.0.0.1:8000/categories/art/shows
 
-###
-GET http://127.0.0.1:8000/status
 
 ###
 GET https://google.com

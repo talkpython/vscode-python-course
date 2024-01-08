@@ -7,5 +7,7 @@
         "ms-python.vscode-pylance",
         "humao.rest-client",
         "tamasfe.even-better-toml",
+        "eamodio.gitlens",
+        "GitHub.vscode-pull-request-github"
     ]
 }

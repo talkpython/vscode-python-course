@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "podcastapi"
+description = "Sample project for Visual Studio Code for Python Developers course"
+readme = "README.md"
+version = "1.0"
+authors = [{ name = "Brian Clark" }, { name = "Cecil Phillip" }]
+requires-python = ">=3.11"
+dependencies = ["fastapi[all]", "tinydb"]
+
+[project.optional-dependencies]
+test = ["pytest~=7.4.3", "pytest-mock~=3.12.0"]
+
+[project.urls]
+course = "https://training.talkpython.fm/courses/visual-studio-code-for-python-developers"
+repo = "https://github.com/talkpython/vscode-python-course"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+testpaths = ["tests"]
+markers = [
+    "test_client: mark a test that uses the TestClient"
+]
+addopts = [
+    "-ra", "--tb=no",
+    "--log-level=INFO",
+    "--color=yes",
+    "--code-highlight=yes",
+    "--import-mode=importlib",
+    "--strict-config",
+    "--strict-markers",
+]
