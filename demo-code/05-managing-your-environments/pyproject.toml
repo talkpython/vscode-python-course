@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 tinydb = "^4.8.0"
-fastapi = {extras = ["all"], version = "^0.98.0"}
+fastapi = {extras = ["all"], version = "^0.109.2"}
 
 
 [build-system]
