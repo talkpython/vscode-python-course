@@ -10,7 +10,7 @@ status_router = APIRouter(prefix="/status", tags=["status"])
 
 @status_router.get("")
 def get_status():
-    '''Returns API status'''
+    """Returns API status"""
     payload = {"status": "healthy"}
     headers = {"X-COURSE": "VScode for Python"}
     response = JSONResponse(payload, status_code=status.HTTP_200_OK, headers=headers)

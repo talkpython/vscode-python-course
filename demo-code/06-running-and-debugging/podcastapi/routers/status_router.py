@@ -6,8 +6,9 @@ from fastapi.routing import APIRouter
 
 status_router = APIRouter(prefix="/status", tags=["status"])
 
+
 @status_router.get("")
 def get_status(response: Response):
-    '''Returns API status'''
+    """Returns API status"""
     response.status_code = status.HTTP_200_OK
     return response

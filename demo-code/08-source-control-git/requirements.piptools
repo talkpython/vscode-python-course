@@ -1,3 +1,4 @@
+annotated-types
 anyio
 certifi
 click
@@ -15,8 +16,12 @@ MarkupSafe
 orjson
 pydantic
 python-dotenv
-python-multipart
+pydantic-extra-types
+pydantic-settings
+pydantic_core
 pytest_mock
+python-dotenv
+python-multipart
 PyYAML
 sniffio
 starlette
@@ -26,4 +31,3 @@ ujson
 uvicorn
 watchfiles
 websockets
-

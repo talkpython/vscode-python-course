@@ -6,7 +6,7 @@ from argparse import ArgumentParser
 import uvicorn
 
 from podcastapi.api import api
-from podcastapi.logging import logger
+from podcastapi.custom_logging import logger
 from podcastapi.data import import_sample_data
 
 

@@ -6,8 +6,8 @@ from fastapi.responses import JSONResponse, Response
 from fastapi.routing import APIRouter
 from tinydb import Query
 
+from podcastapi.custom_logging import logger
 from podcastapi.data import podcast_table
-from podcastapi.logging import logger
 
 categories_router = APIRouter(prefix="/categories", tags=["categories"])
 

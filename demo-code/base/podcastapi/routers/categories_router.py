@@ -13,7 +13,7 @@ categories_router = APIRouter(prefix="/categories", tags=["categories"])
 
 @categories_router.get("")
 def get_distinct_categories() -> Response:
-    '''Returns a distinct listing of all stories categories'''
+    """Returns a distinct listing of all stories categories"""
     if len(podcast_table) < 1:
         return Response(status_code=status.HTTP_404_NOT_FOUND)
     retrieve_categories = [show['categories'] for show in podcast_table.all()]
@@ -23,7 +23,7 @@ def get_distinct_categories() -> Response:
 
 @categories_router.get("/{category}/shows")
 def get_shows_for_category(category: str) -> Response:
-    '''Returns shows that match a given category'''
+    """Returns shows that match a given category"""
     if len(podcast_table) < 1:
         return Response(status_code=status.HTTP_404_NOT_FOUND)
 

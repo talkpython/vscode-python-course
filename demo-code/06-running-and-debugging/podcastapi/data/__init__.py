@@ -4,8 +4,8 @@ Exports configured instances of TinyDB, TinyDb.Table, and the import_sample_data
 import json
 
 from tinydb import TinyDB
-from podcastapi.logging import logger
 
+from podcastapi.custom_logging import logger
 
 TABLE_NAME = "podcasts"
 db = TinyDB("podcastdb.json")

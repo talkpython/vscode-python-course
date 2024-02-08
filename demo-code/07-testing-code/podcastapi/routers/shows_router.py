@@ -5,8 +5,8 @@ from fastapi import status
 from fastapi.responses import JSONResponse, Response
 from fastapi.routing import APIRouter
 
+from podcastapi.custom_logging import logger
 from podcastapi.data import podcast_table
-from podcastapi.logging import logger
 
 shows_router = APIRouter(prefix="/shows", tags=["shows"])
 

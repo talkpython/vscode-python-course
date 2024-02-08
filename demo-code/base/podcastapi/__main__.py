@@ -20,7 +20,7 @@ def get_parser() -> ArgumentParser:
 
 
 def main():
-    '''Entry point function. Loads FastAPI instance in uvicorn and instantiates tinydb'''
+    """Entry point function. Loads FastAPI instance in uvicorn and instantiates tinydb"""
     args = get_parser().parse_args()
 
     if args.generate:

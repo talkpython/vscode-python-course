@@ -6,6 +6,7 @@ import json
 
 from fastapi import status
 from pytest_mock import MockerFixture
+
 from podcastapi.routers.categories_router import (
     get_distinct_categories,
     get_shows_for_category,

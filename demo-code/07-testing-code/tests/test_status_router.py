@@ -3,6 +3,7 @@ Unit tests for the routes exposed by status router
 """
 
 import json
+
 import pytest
 from fastapi.testclient import TestClient
 
@@ -10,6 +11,7 @@ from podcastapi.api import api
 from podcastapi.routers.status_router import get_status
 
 client = TestClient(api)
+
 
 @pytest.mark.test_client
 def test_status_route():
